@@ -362,7 +362,7 @@ kpi_structure = \
                                                                                    'step': 1}]}}}
 
 st.set_page_config(layout="wide")
-st.title("종합성과지표(KPI) 대시보드") # 제목 변경
+st.title("KPI 대시보드 MVP (v.1.1)") # 제목 변경
 st.markdown("---")
 
 def convert_c_to_d3_format(c_format_str, default_d3_format=".2~f"):
